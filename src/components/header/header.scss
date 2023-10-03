@@ -1,6 +1,18 @@
-.logo {
-    img {
-        height: 50px;
-        width: auto;
-    }
+.button-nav {
+  cursor: pointer;
+}
+
+.button-nav:hover {
+  color: rgb(138, 138, 138);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(234, 233, 233, 0.3);
+}
+
+.space {
+  height: 105px;
 }
